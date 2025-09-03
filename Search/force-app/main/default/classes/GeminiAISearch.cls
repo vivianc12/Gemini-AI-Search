@@ -3,9 +3,6 @@ This class connects with Gemini 2.0 Flash text generation api
 The class is invoked from the "GeminiAISearch" LWC component
 */
 public with sharing class GeminiAISearch {
-    public GeminiAISearch() {
-    }
-
     /* 
     Description : The "getDetails" methods accepts the users input, and send the same to Gemini api
     to generate the reponse and return it to the "GeminiAISearch" LWC
